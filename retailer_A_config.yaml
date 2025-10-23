@@ -1,0 +1,22 @@
+endpoint_name: "Retailer A"
+required_fields: [product_id, name, price]
+
+field_mappings:
+  product_id: "ITEM_CODE"
+  name: "Title"
+  price: "PRICE"
+  category: "CATEGORY_NAME"
+
+transformations:
+  # Rule: Capitalize the first letter of every word in the name
+  name: "titlecase"
+  # Rule: Make the category name all uppercase
+  category: "uppercase"
+
+validations:
+  # Rule: Price must be a number greater than 0
+  price: "is_positive_number"
+  # Rule: ITEM_CODE cannot be empty
+  product_id: "not_empty"
+  # Rule: Price cannot be empty
+  price: "not_empty"

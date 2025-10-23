@@ -1,0 +1,6 @@
+product_id,product_name,description,category,price,stock_quantity,image_url,dimensions_cm,
+SKU1001,Wireless Noise-Cancelling Headphones,Premium over-ear headphones with 30-hour battery life.,Electronics,249.99,150,https://example.com/img/headphones.jpg,20x18x8,
+SKU1002,Men's Classic T-Shirt,100% cotton crewneck t-shirt. Available in 5 colors.,Apparel,29.99,500,https://example.com/img/tshirt.jpg,,
+SKU1003,Smart LED Light Bulb,WiFi enabled, works with Alexa and Google Home. 16 million colors.,Home,19.99,300,https://example.com/img/bulb.jpg,6x6x12
+SKU1004,Organic Ground Coffee,Dark roast, 1kg bag. Fairtrade certified.,Grocery,15.49,250,https://example.com/img/coffee.jpg,25x10x7
+SKU1005,Yoga Mat,Extra thick non-slip exercise mat.,Sports,34.95,400,https://example.com/img/mat.jpg,61x183x0.6,
